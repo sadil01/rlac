@@ -46,11 +46,11 @@ The computational analysis reveals clear differences in how psychological interi
 
 One way this pattern emerges is through the frequency of interiority markers such as *“felt.”* When examining how often “felt” appears near Draco and Severus across texts, fanfiction consistently shows higher relative frequencies than the canonical novels. This suggests that fanfiction authors more frequently situate these characters within emotional or introspective contexts.
 
-![Felt Near Draco and Severus Across Texts](assets/visuals/Screenshot 2026-03-02 150120.png)
+![Felt Near Draco and Severus Across Texts](/assets/visuals/Screenshot%202026-03-02%20150120.png)
 
 A similar trend appears when analyzing *“thought”* as an interiority marker. Again, Draco and Severus are more often associated with cognitive language in fanfiction than in canonical texts. While canonical texts do include moments of introspection, these are less frequent and less consistently distributed across texts.
 
-![Thought Near Draco and Severus Across Texts](assets/visuals/Screenshot 2026-03-02 150058.png)
+![Thought Near Draco and Severus Across Texts](/assets/visuals/Screenshot%202026-03-02%20150058.png)
 
 Together, these exploratory visualizations suggest a broader pattern: fanfiction tends to amplify the psychological interiority of characters who are more narratively restrained in the original novels. However, these trends alone do not fully account for differences in character frequency or text length, which can influence raw counts.
 
@@ -60,28 +60,29 @@ To allow for a more interactive exploration of these patterns, the visualization
 
 While Voyant Tools highlights general trends, a more controlled computational analysis using RMarkdown provides a clearer comparison by normalizing interiority markers relative to character mentions. This approach ensures that differences are not simply due to how often a character appears, but rather how they are portrayed when they do appear.
 
-![Psychological Interiority of Draco and Severus](assets/visuals/Screenshot 2026-03-03 003544.png)
+![Psychological Interiority of Draco and Severus](/assets/visuals/Screenshot%202026-03-03%20003544.png)
 
 The normalized results confirm the earlier observations: both Draco and Severus exhibit higher levels of psychological interiority in fanfiction than in canonical texts. Draco, in particular, shows a noticeable increase, indicating that fanfiction significantly expands his emotional and cognitive representation. Severus also demonstrates increased interiority, though the difference is more moderate.
 
 Importantly, this does not suggest that these characters lack depth in the canonical texts. Rather, it indicates that fanfiction redistributes narrative attention, allowing secondary or morally complex characters greater access to introspection and emotional expression. In this sense, fanfiction functions as a space for reinterpreting and deepening character psychology beyond the constraints of the original narrative.
 
-You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+## Discussion and Methodological Reflection
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+This analysis demonstrates how computational tools can reveal patterns in character representation that are difficult to observe through close reading alone. While Voyant Tools was effective for identifying general trends—such as increased proximity between interiority markers and character names in fanfiction—it remained limited in its ability to account for differences in character frequency and text length. By contrast, the RMarkdown analysis provided a normalized measure of interiority, allowing for more reliable comparison across texts. This distinction was crucial, as it ensured that differences reflected changes in representation rather than simple differences in how often characters appeared.
 
-Jekyll also offers powerful support for code snippets:
+The results suggest that fanfiction redistributes psychological interiority toward morally ambiguous characters. Both Draco and Severus exhibit higher interiority ratios in fanfiction, indicating that these texts more frequently situate them within emotional and cognitive frameworks. This supports the idea that fanfiction expands narrative attention beyond the constraints of the original novels.
 
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-```
+At the same time, this method has important limitations. As Ted Underwood argues, distant reading risks oversimplifying complex literary phenomena by reducing them to quantifiable patterns (Underwood 143). In this case, using words like “felt” and “thought” as proxies for interiority captures only a narrow dimension of character depth. Additionally, proximity-based queries do not guarantee meaningful relationships, meaning that results should be interpreted as patterns rather than definitive claims.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+## Conclusion
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Overall, this analysis shows that fanfiction functions as a space for reinterpreting and expanding the psychological depth of characters such as Draco Malfoy and Severus Snape. By combining exploratory and computational methods, this project highlights both the potential and the limitations of distant reading, demonstrating how digital tools can complement—but not replace—literary interpretation.
+
+## Works Cited
+
+Underwood, Ted. *Distant Horizons: Digital Evidence and Literary Change*. University of Chicago Press, 2019.
+
+Sinclair, Stéfan, and Geoffrey Rockwell. *Voyant Tools*. https://voyant-tools.org/. Accessed 2026.
+
+Ready for grading!
+
