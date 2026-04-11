@@ -10,7 +10,7 @@ tags:
 __Psychological Interiority and Moral Ambiguity in Harry Potter Fanfiction__
 
 
-__Introduction__
+## Introduction
 
 Harry Potter fanfiction has long served as a creative space where readers reinterpret and expand the emotional and psychological dimensions of characters from J.K. Rowling’s original novels. Among the most frequently reimagined figures are Draco Malfoy and Severus Snape, two morally ambiguous characters whose motivations and inner lives remain partially obscured in the canonical series. While Rowling’s narrative centers primarily on Harry Potter’s perspective, fanfiction writers often redistribute narrative attention toward characters whose interior perspectives are only briefly glimpsed in the original texts.
 
@@ -18,7 +18,7 @@ This project investigates whether fanfiction provides greater psychological inte
 
 The goal is not to replace interpretive reading but to use computational methods to detect patterns that might otherwise be difficult to observe across multiple texts. As Ted Underwood warns in The Risks of Distant Reading, quantitative methods can reveal broad tendencies but must be interpreted cautiously and contextualized within literary analysis. By combining Voyant’s exploratory visualizations with a normalized metric calculated in R, this analysis seeks to determine whether fanfiction systematically expands the narrative interiority of morally ambiguous characters.
 
-__Corpus and Context__
+## Corpus and Context
 
 The corpus analyzed in this study includes six texts: three canonical novels by J.K. Rowling and three fanfiction works drawn from the Harry Potter fandom. The canonical texts include Harry Potter and the Prisoner of Azkaban, Harry Potter and the Half-Blood Prince, and Harry Potter and the Deathly Hallows. These novels represent different stages of the series in which Draco Malfoy and Severus Snape play increasingly complex roles in the narrative.
 
@@ -28,7 +28,7 @@ This contrast between canonical narrative structure and fanfiction reinterpretat
 
 Understanding the cultural and narrative contexts of these texts is essential before applying computational analysis. Without this background knowledge, patterns revealed through distant reading methods might be misinterpreted or stripped of their literary significance.
 
-__Methods__
+## Methods
 
 To explore how psychological interiority is distributed across the corpus, I used two complementary computational approaches: exploratory analysis in Voyant Tools and custom analysis in RMarkdown.
 
@@ -40,7 +40,7 @@ This normalization step is important because characters appear at different freq
 
 Together, Voyant Tools and RMarkdown provided complementary perspectives. Voyant enabled exploratory discovery and interactive visualization, while R allowed more controlled computational analysis and the creation of customized visualizations that summarized patterns across the corpus.
 
-__Findings__
+## Findings
 
 The computational analysis reveals clear differences in how psychological interiority is distributed between the canonical novels and fanfiction texts. In particular, fanfiction appears to provide more space for morally ambiguous characters such as Draco Malfoy and Severus Snape to express internal thoughts and emotions.
 
@@ -82,7 +82,6 @@ Overall, this analysis shows that fanfiction functions as a space for reinterpre
 
 Underwood, Ted. *Distant Horizons: Digital Evidence and Literary Change*. University of Chicago Press, 2019.
 
-Sinclair, Stéfan, and Geoffrey Rockwell. *Voyant Tools*. https://voyant-tools.org/. Accessed 2026.
 
 Ready for grading!
 
