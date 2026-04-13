@@ -46,12 +46,15 @@ The computational analysis reveals clear differences in how psychological interi
 
 One way this pattern emerges is through the frequency of interiority markers such as *“felt.”* When examining how often “felt” appears near Draco and Severus across texts, fanfiction consistently shows higher relative frequencies than the canonical novels. This suggests that fanfiction authors more frequently situate these characters within emotional or introspective contexts.
 
-![Felt Near Draco and Severus Across Texts](/assets/images/felt_graph.png)
+![Felt Near Draco and Severus Across Texts]({{ site.baseurl }}/assets/images/felt_graph.png)
 
+*Figure 1: Felt Near Draco and Severus Across Texts*
 
 A similar trend appears when analyzing *“thought”* as an interiority marker. Again, Draco and Severus are more often associated with cognitive language in fanfiction than in canonical texts. While canonical texts do include moments of introspection, these are less frequent and less consistently distributed across texts.
 
 ![Thought Near Draco and Severus Across Texts]({{ site.baseurl }}/assets/images/thought_graph.png)
+
+*Figure 2: Thought Near Draco and Severus Across Texts*
 
 Together, these exploratory visualizations suggest a broader pattern: fanfiction tends to amplify the psychological interiority of characters who are more narratively restrained in the original novels. However, these trends alone do not fully account for differences in character frequency or text length, which can influence raw counts.
 
@@ -61,7 +64,9 @@ To allow for a more interactive exploration of these patterns, the visualization
 
 While Voyant Tools highlights general trends, a more controlled computational analysis using RMarkdown provides a clearer comparison by normalizing interiority markers relative to character mentions. This approach ensures that differences are not simply due to how often a character appears, but rather how they are portrayed when they do appear.
 
-![Psychological Interiority of Draco and Severus](/assets/images/r_bar_chart.png)
+![Psychological Interiority of Draco and Severus]({{ site.baseurl }}/assets/images/r_bar_chart.png)
+
+*Figure 3: Psychological Interiority of Draco and Severus*
 
 The normalized results confirm the earlier observations: both Draco and Severus exhibit higher levels of psychological interiority in fanfiction than in canonical texts. Draco, in particular, shows a noticeable increase, indicating that fanfiction significantly expands his emotional and cognitive representation. Severus also demonstrates increased interiority, though the difference is more moderate.
 
