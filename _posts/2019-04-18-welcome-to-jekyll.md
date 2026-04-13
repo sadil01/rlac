@@ -51,7 +51,7 @@ One way this pattern emerges is through the frequency of interiority markers suc
 
 A similar trend appears when analyzing *“thought”* as an interiority marker. Again, Draco and Severus are more often associated with cognitive language in fanfiction than in canonical texts. While canonical texts do include moments of introspection, these are less frequent and less consistently distributed across texts.
 
-![Thought Near Draco and Severus Across Texts](/assets/images/thought_graph.png)
+![Thought Near Draco and Severus Across Texts]({{ site.baseurl }}/assets/images/thought_graph.png)
 
 Together, these exploratory visualizations suggest a broader pattern: fanfiction tends to amplify the psychological interiority of characters who are more narratively restrained in the original novels. However, these trends alone do not fully account for differences in character frequency or text length, which can influence raw counts.
 
