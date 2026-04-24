@@ -12,7 +12,7 @@ __Psychological Interiority and Moral Ambiguity in Harry Potter Fanfiction__
 
 ## Introduction
 
-Harry Potter fanfiction has long served as a creative space where readers reinterpret and expand the emotional and psychological dimensions of characters from J.K. Rowling’s original novels. Among the most frequently reimagined figures are Draco Malfoy and Severus Snape, two morally ambiguous characters whose motivations and inner lives remain partially obscured in the canonical series. While Rowling’s narrative centers primarily on Harry Potter’s perspective, fanfiction writers often redistribute narrative attention toward characters whose interior perspectives are only briefly glimpsed in the original texts.
+Harry Potter fanfiction has long served as a creative space where readers reinterpret and expand the emotional and psychological dimensions of characters from J.K. Rowling’s original novels. Among the most frequently reimagined figures are Draco Malfoy and Severus Snape, two morally ambiguous characters whose motivations and inner lives remain partially obscured in the canonical series. While Rowling’s narrative centers primarily on Harry Potter’s perspective, fanfiction writers often redistribute narrative attention toward characters whose interior perspectives are only briefly glimpsed in the original texts. This connects to broader historical ideas about how reading produces interior life, as scholars have argued that practices like silent reading helped create a more private psychological experience for readers.
 
 This project investigates whether fanfiction provides greater psychological interiority to Draco Malfoy and Severus Snape than Rowling’s canonical works. Specifically, I examine whether fanfiction places cognitive and emotional language—words such as “felt” and “thought”-in close proximity to these characters’ names more frequently than the canon does. To explore this question, I analyze a small corpus consisting of three Rowling novels and three Harry Potter fanfiction texts. Using exploratory text analysis in Voyant Tools alongside custom analysis in RMarkdown notebooks, I measure the frequency of interiority markers appearing within five words of each character’s name.
 
@@ -38,7 +38,7 @@ However, Voyant’s exploratory visualizations do not automatically normalize re
 
 This normalization step is important because characters appear at different frequencies across texts. Without normalization, a character who simply appears more often might appear to have more interiority even if the proportion of interior language is low. The R analysis therefore provides a more comparable measure across texts.
 
-Together, Voyant Tools and RMarkdown provided complementary perspectives. Voyant enabled exploratory discovery and interactive visualization, while R allowed more controlled computational analysis and the creation of customized visualizations that summarized patterns across the corpus.
+Together, Voyant Tools and RMarkdown provided complementary perspectives. More broadly, this approach reflects a shift in how texts are read in digital environments, where computational tools increasingly mediate interpretation and allow patterns to be identified at scale rather than through linear reading alone. Voyant enabled exploratory discovery and interactive visualization, while R allowed more controlled computational analysis and the creation of customized visualizations that summarized patterns across the corpus.
 
 ## Findings
 
@@ -88,6 +88,9 @@ Overall, this analysis shows that fanfiction functions as a space for reinterpre
 
 Underwood, Ted. *Distant Horizons: Digital Evidence and Literary Change*. University of Chicago Press, 2019.
 
+Ha, Thu-Huong. “The Beginning of Silent Reading Changed Westerners’ Interior Life.” *Quartz*, 2022.
+
+Darkin, Glyn. “People Don’t Read, but LLMs Do.” 2025.
 
 Ready for grading!
 
