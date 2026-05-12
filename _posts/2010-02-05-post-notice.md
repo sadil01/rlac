@@ -91,4 +91,8 @@ This project demonstrates that computational methods can reveal meaningful relat
 Ultimately, the comparison between Stylo and TF-IDF suggests that computational literary analysis does not replace interpretation; instead, it reframes interpretation around measurable textual patterns. Reading like a computer reveals that science fiction in this corpus is organized not only by authorship, but also by shared conceptual worlds: technological anxiety, futurist speculation, planetary exploration, and postwar visions of humanity’s future. The project therefore demonstrates both the power and the limitation of distant reading: what the computer sees depends on what the computer is taught to measure.
 
 
+## Works Cited
+
+Underwood, Ted. Distant Horizons: *Digital Evidence and Literary Change*. University of Chicago Press, 2019.
+
 READY FOR GRADING
